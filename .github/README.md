@@ -1,6 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c104d072-a3bb-4f8a-bd93-a7d5652ff75f/deploy-status)](https://app.netlify.com/sites/infallible-torvalds-c75fae/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c104d072-a3bb-4f8a-bd93-a7d5652ff75f/deploy-status)](https://app.netlify.com/sites/ge-design/deploys)
 [![CircleCI](https://circleci.com/gh/Garcia-Enterprise/ge-design.svg?style=svg)](https://circleci.com/gh/Garcia-Enterprise/ge-design)
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
