@@ -7,7 +7,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0",
+    "react-scripts": "3.1.1",
     "styled-components": "^4.4.1"
   },
   "scripts": {
@@ -17,6 +17,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
+    "build-storybook-docs": "build-storybook -s public --docs",
     "chromatic": "CHROMATIC_APP_CODE=sdbo28ndrhl chromatic"
   },
   "eslintConfig": {
