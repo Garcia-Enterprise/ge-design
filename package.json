@@ -15,7 +15,8 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
-    "chromatic": "CHROMATIC_APP_CODE=sdbo28ndrhl chromatic"
+    "chromatic": "CHROMATIC_APP_CODE=sdbo28ndrhl chromatic",
+    "release": "auto shipit"
   },
   "dependencies": {
     "polished": "^3.4.2",
