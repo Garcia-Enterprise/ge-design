@@ -82,17 +82,17 @@ const Initial = styled.div`
   font-size: ${typography.size.s2}px;
   line-height: ${sizes.medium}px;
 
-  ${props => props.size === "tiny" && css`
+  ${(props) => props.size === 'tiny' && css`
     font-size: ${typography.size.s1 - 2}px;
     line-height: ${sizes.tiny}px;
   `}
 
-  ${props => props.size === "small" && css`
+  ${(props) => props.size === 'small' && css`
     font-size: ${typography.size.s1}px;
     line-height: ${sizes.small}px;
   `}
 
-  ${props => props.size === "large" && css`
+  ${(props) => props.size === 'large' && css`
     font-size: ${typography.size.s3}px;
     line-height: ${sizes.large}px;
   `}
@@ -134,7 +134,7 @@ Avatar.propTypes = {
   */
   loading: PropTypes.bool,
   /**
-    Avatar falls back to the user's initial when no image is provided. 
+    Avatar falls back to the user's initial when no image is provided.
     Supply a `username` and omit `src` to see what this looks like.
   */
   username: PropTypes.string,
