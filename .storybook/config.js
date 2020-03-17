@@ -1,7 +1,7 @@
 import React from 'react';
-import { configure, addDecorator } from '@storybook/react';
+import { configure, addDecorator, addParameters } from '@storybook/react';
+import { themes } from '@storybook/theming';
 import { withA11y } from '@storybook/addon-a11y';
-import 'storybook-chromatic';
 
 import { GlobalStyle } from '../src/shared/global';
 
@@ -12,6 +12,11 @@ addDecorator(story => (
     {story()}
   </>
 ));
+addParameters({
+  options: {
+    theme: themes.dark,
+  },
+});
 
 // automatically import all files ending in *.stories.js|mdx
 configure(

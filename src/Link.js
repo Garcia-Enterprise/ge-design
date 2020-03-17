@@ -147,9 +147,16 @@ const LinkButton = styled.button`
 const applyStyle = LinkWrapper => {
   return (
     LinkWrapper &&
-    styled(({ containsIcon, inverse, nochrome, secondary, tertiary, ...linkWrapperRest }) => (
-      <LinkWrapper {...linkWrapperRest} />
-    ))`
+    styled(
+      ({
+        containsIcon,
+        inverse,
+        nochrome,
+        secondary,
+        tertiary,
+        ...linkWrapperRest
+      }) => <LinkWrapper {...linkWrapperRest} />
+    )`
       ${linkStyles};
     `
   );

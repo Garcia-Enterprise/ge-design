@@ -52,7 +52,8 @@ const StyledButton = styled.button`
   background: transparent;
 
 
-  font-size: ${props => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
+  font-size: ${props =>
+    props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 
@@ -270,10 +271,16 @@ const StyledButton = styled.button`
           color: ${color.lightest};
         }
         &:focus {
-          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(color.primary, 0.4)} 0 1px 9px 2px;
+          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
+        color.primary,
+        0.4
+      )} 0 1px 9px 2px;
         }
         &:focus:hover {
-          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(color.primary, 0.2)} 0 8px 18px 0px;
+          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
+        color.primary,
+        0.2
+      )} 0 8px 18px 0px;
         }
       `};
 
@@ -310,9 +317,11 @@ const ButtonLink = StyledButton.withComponent('a');
 const applyStyle = ButtonWrapper => {
   return (
     ButtonWrapper &&
-    StyledButton.withComponent(({ containsIcon, isLoading, isUnclickable, ...rest }) => (
-      <ButtonWrapper {...rest} />
-    ))
+    StyledButton.withComponent(
+      ({ containsIcon, isLoading, isUnclickable, ...rest }) => (
+        <ButtonWrapper {...rest} />
+      )
+    )
   );
 };
 
@@ -332,7 +341,9 @@ export function Button({
     </Fragment>
   );
 
-  const StyledButtonWrapper = React.useMemo(() => applyStyle(ButtonWrapper), [ButtonWrapper]);
+  const StyledButtonWrapper = React.useMemo(() => applyStyle(ButtonWrapper), [
+    ButtonWrapper,
+  ]);
 
   let SelectedButton = StyledButton;
   if (ButtonWrapper) {

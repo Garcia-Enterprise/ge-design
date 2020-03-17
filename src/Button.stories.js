@@ -118,7 +118,12 @@ export const buttonWrapper = () => (
     <Button ButtonWrapper={ButtonWrapper} appearance="outline" isLoading>
       Outline
     </Button>
-    <Button ButtonWrapper={ButtonWrapper} appearance="outline" isLoading loadingText="Custom...">
+    <Button
+      ButtonWrapper={ButtonWrapper}
+      appearance="outline"
+      isLoading
+      loadingText="Custom..."
+    >
       Outline
     </Button>
     <br />
@@ -134,10 +139,20 @@ export const buttonWrapper = () => (
     <Button ButtonWrapper={ButtonWrapper} appearance="outline" size="small">
       Outline
     </Button>
-    <Button ButtonWrapper={ButtonWrapper} appearance="primary" isDisabled size="small">
+    <Button
+      ButtonWrapper={ButtonWrapper}
+      appearance="primary"
+      isDisabled
+      size="small"
+    >
       Disabled
     </Button>
-    <Button ButtonWrapper={ButtonWrapper} appearance="outline" size="small" containsIcon>
+    <Button
+      ButtonWrapper={ButtonWrapper}
+      appearance="outline"
+      size="small"
+      containsIcon
+    >
       <Icon icon="link" aria-label="Link" />
     </Button>
     <Button ButtonWrapper={ButtonWrapper} appearance="outline" size="small">
@@ -153,18 +168,36 @@ buttonWrapper.story = {
 
 export const anchorWrapper = () => (
   <div>
-    <StoryLinkWrapper to="http://storybook.js.org">Original Link Wrapper</StoryLinkWrapper>
+    <StoryLinkWrapper to="http://storybook.js.org">
+      Original Link Wrapper
+    </StoryLinkWrapper>
     <br />
-    <Button ButtonWrapper={StoryLinkWrapper} appearance="primary" href="http://storybook.js.org">
+    <Button
+      ButtonWrapper={StoryLinkWrapper}
+      appearance="primary"
+      href="http://storybook.js.org"
+    >
       Primary
     </Button>
-    <Button ButtonWrapper={StoryLinkWrapper} appearance="secondary" href="http://storybook.js.org">
+    <Button
+      ButtonWrapper={StoryLinkWrapper}
+      appearance="secondary"
+      href="http://storybook.js.org"
+    >
       Secondary
     </Button>
-    <Button ButtonWrapper={StoryLinkWrapper} appearance="tertiary" href="http://storybook.js.org">
+    <Button
+      ButtonWrapper={StoryLinkWrapper}
+      appearance="tertiary"
+      href="http://storybook.js.org"
+    >
       Tertiary
     </Button>
-    <Button ButtonWrapper={StoryLinkWrapper} appearance="outline" href="http://storybook.js.org">
+    <Button
+      ButtonWrapper={StoryLinkWrapper}
+      appearance="outline"
+      href="http://storybook.js.org"
+    >
       Outline
     </Button>
     <Button
