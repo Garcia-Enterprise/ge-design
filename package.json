@@ -17,7 +17,6 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
-    "chromatic": "CHROMATIC_APP_CODE=sdbo28ndrhl chromatic",
     "release": "auto shipit",
     "lint": "eslint ."
   },
@@ -48,7 +47,6 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
     "prettier": "^1.19.1",
-    "storybook-chromatic": "^3.5.2",
     "typescript": "^3.8.3"
   },
   "babel": {
