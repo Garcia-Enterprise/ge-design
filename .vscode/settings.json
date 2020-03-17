@@ -23,6 +23,14 @@
     "latex",
     "plaintext",
     "json",
-    "jsonc"
-  ]
+    "jsonc",
+    "mdx",
+    "javascript",
+    "html"
+  ],
+  "spellright.parserByClass": {
+    "mdx": {
+      "parser": "plain"
+    }
+  }
 }
