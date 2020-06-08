@@ -1,3 +1,15 @@
+# v0.1.8 (Mon Jun 08 2020)
+
+#### 🐛 Bug Fix
+
+- Bump websocket-extensions from 0.1.3 to 0.1.4 [#5](https://github.com/Garcia-Enterprise/ge-design/pull/5) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v0.1.1 (Tue Mar 17 2020)
 
 #### 🐛 Bug Fix
