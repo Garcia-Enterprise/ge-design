@@ -1,3 +1,15 @@
+# v0.1.10 (Tue Jun 09 2020)
+
+#### ⚠️  Pushed to `master`
+
+- Merge branch 'develop' ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.1.9 (Tue Jun 09 2020)
 
 #### ⚠️  Pushed to `master`
