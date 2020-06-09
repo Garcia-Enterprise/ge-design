@@ -1,3 +1,15 @@
+# v0.1.9 (Tue Jun 09 2020)
+
+#### ⚠️  Pushed to `master`
+
+- add link to npm ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.1.8 (Mon Jun 08 2020)
 
 #### 🐛 Bug Fix
