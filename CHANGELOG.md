@@ -1,3 +1,15 @@
+# v0.1.11 (Thu Jun 11 2020)
+
+#### 🐛 Bug Fix
+
+- build(prettier): add custom prettier config [#6](https://github.com/Garcia-Enterprise/ge-design/pull/6) ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.1.10 (Tue Jun 09 2020)
 
 #### ⚠️  Pushed to `master`
