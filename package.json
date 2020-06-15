@@ -5,7 +5,7 @@
   "private": false,
   "main": "dist/index.js",
   "repository": "git@github.com:Garcia-Enterprise/ge-design.git",
-  "author": "Eric N. Garcia <engarcia618@gmail.com>",
+  "author": "Eric N. Garcia <eng618@garciaericn.com>",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +21,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "polished": "^3.6.4",
+    "polished": "^3.6.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -42,7 +42,7 @@
     "@storybook/react": "^5.3.19",
     "auto": "^9.39.0",
     "babel-loader": "^8.1.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
