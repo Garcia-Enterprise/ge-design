@@ -1,3 +1,15 @@
+# (Sun Aug 02 2020)
+
+#### 🔩 Dependency Updates
+
+- Bump elliptic from 6.5.2 to 6.5.3 [#7](https://github.com/Garcia-Enterprise/ge-design/pull/7) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v0.1.11 (Thu Jun 11 2020)
 
 #### 🐛 Bug Fix
