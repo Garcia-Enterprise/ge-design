@@ -1,3 +1,15 @@
+# v0.1.13 (Fri Sep 11 2020)
+
+#### 🔩 Dependency Updates
+
+- Bump http-proxy from 1.18.0 to 1.18.1 [#8](https://github.com/Garcia-Enterprise/ge-design/pull/8) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # (Fri Sep 11 2020)
 
 #### 🔩 Dependency Updates
