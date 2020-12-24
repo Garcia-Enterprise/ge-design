@@ -1,3 +1,15 @@
+# (Thu Dec 24 2020)
+
+#### 🔩 Dependency Updates
+
+- Bump ini from 1.3.5 to 1.3.8 [#9](https://github.com/Garcia-Enterprise/ge-design/pull/9) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v0.1.13 (Fri Sep 11 2020)
 
 #### 🔩 Dependency Updates
