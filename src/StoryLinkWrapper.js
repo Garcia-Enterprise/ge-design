@@ -13,7 +13,7 @@ export function StoryLinkWrapper({
   to,
   ...rest
 }) {
-  const modifiedOnClick = event => {
+  const modifiedOnClick = (event) => {
     event.preventDefault();
     onClick();
     fireClickAction(href || to);

@@ -24,7 +24,7 @@ const Item = styled.li`
     height: 24px;
   }
 
-  ${props =>
+  ${(props) =>
     props.minimal &&
     css`
       flex: none;
@@ -57,7 +57,7 @@ export const labels = () => (
   <Fragment>
     There are {Object.keys(icons).length} icons
     <List>
-      {Object.keys(icons).map(key => (
+      {Object.keys(icons).map((key) => (
         <Item key={key}>
           <Icon icon={key} aria-hidden />
           <Meta>{key}</Meta>
@@ -69,7 +69,7 @@ export const labels = () => (
 
 export const noLabels = () => (
   <List>
-    {Object.keys(icons).map(key => (
+    {Object.keys(icons).map((key) => (
       <Item minimal key={key}>
         <Icon icon={key} aria-label={key} />
       </Item>
