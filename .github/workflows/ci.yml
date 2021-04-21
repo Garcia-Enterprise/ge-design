@@ -27,11 +27,12 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: License Scan
-        run: fossa analyze
 
       - name: Install dependencies
         run: yarn
+        
+      - name: License Scan
+        run: fossa analyze
 
       - name: Auto Info
         run: yarn auto info
