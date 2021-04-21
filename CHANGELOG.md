@@ -1,3 +1,26 @@
+# v0.2.0 (Wed Apr 21 2021)
+
+#### 🚀 Enhancement
+
+- feat: license scans and move ci to github actions ([@ENG618](https://github.com/ENG618))
+- feat: migrate storybook config to latest ([@ENG618](https://github.com/ENG618))
+
+#### ⚠️ Pushed to `master`
+
+- ci: fix push issue ([@ENG618](https://github.com/ENG618))
+- ci: add missing env vars and add twitter release ([@ENG618](https://github.com/ENG618))
+- ci: add release token ([@ENG618](https://github.com/ENG618))
+- ci: license scan after dependencies installed ([@ENG618](https://github.com/ENG618))
+- style: lint all files ([@ENG618](https://github.com/ENG618))
+- chore: update all dependencies ([@ENG618](https://github.com/ENG618))
+- chore: update FUNDING ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # (Wed Apr 21 2021)
 
 #### 🚀 Enhancement
