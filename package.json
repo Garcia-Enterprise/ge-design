@@ -29,6 +29,9 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^10.25.1",
+    "@auto-it/conventional-commits": "^10.25.1",
+    "@auto-it/twitter": "^10.25.1",
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@eng618/prettier-config": "^1.5.0",
@@ -94,5 +97,19 @@
       "last 1 safari version"
     ]
   },
-  "prettier": "@eng618/prettier-config"
+  "prettier": "@eng618/prettier-config",
+  "auto": {
+    "plugins": [
+      [
+        "twitter",
+        {
+          "threshold": "patch"
+        }
+      ],
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
+    ]
+  }
 }

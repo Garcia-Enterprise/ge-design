@@ -41,5 +41,10 @@ jobs:
         run: yarn release
 
     env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
       FOSSA_API_KEY: ${{ secrets.FOSSA_API_KEY }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+      TWITTER_CONSUMER_KEY_SECRET: ${{ secrets.TWITTER_CONSUMER_KEY_SECRET }}
