@@ -1,2 +1,4 @@
-github: eng618
+# Funding
+
+github: [eng618]
 custom: ['https://www.paypal.me/garciaericn']
