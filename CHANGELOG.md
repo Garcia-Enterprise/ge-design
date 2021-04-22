@@ -1,3 +1,16 @@
+# v0.5.2 (Thu Apr 22 2021)
+
+#### 🐛 Bug Fix
+
+- ci: check lint and formatting ([@ENG618](https://github.com/ENG618))
+- fix: remove redundant eslint config ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.1 (Thu Apr 22 2021)
 
 #### 🐛 Bug Fix
