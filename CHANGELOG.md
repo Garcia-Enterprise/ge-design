@@ -1,3 +1,15 @@
+# v0.5.4 (Thu Apr 22 2021)
+
+#### 🐛 Bug Fix
+
+- chore: add license ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.3 (Thu Apr 22 2021)
 
 #### 🐛 Bug Fix
