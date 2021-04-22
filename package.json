@@ -50,33 +50,6 @@
       "react-app"
     ]
   },
-  "eslintConfig": {
-    "extends": [
-      "plugin:react/recommended",
-      "plugin:jsx-a11y/recommended",
-      "prettier"
-    ],
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": "2020",
-      "sourceType": "module"
-    },
-    "plugins": [
-      "jsx-a11y",
-      "react",
-      "react-hooks"
-    ],
-    "ignorePatterns": [
-      "storybook-static/",
-      "node_modules/"
-    ],
-    "rules": {
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -89,7 +62,6 @@
       "last 1 safari version"
     ]
   },
-  "prettier": "@eng618/prettier-config",
   "auto": {
     "plugins": [
       [
@@ -108,5 +80,6 @@
       ],
       "released"
     ]
-  }
+  },
+  "prettier": "@eng618/prettier-config"
 }
