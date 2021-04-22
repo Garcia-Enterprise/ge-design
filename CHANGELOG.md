@@ -1,3 +1,16 @@
+# v0.5.3 (Thu Apr 22 2021)
+
+#### 🐛 Bug Fix
+
+- ci: temporarily remove preflight checks ([@ENG618](https://github.com/ENG618))
+- fix: replace missing dependencies ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.2 (Thu Apr 22 2021)
 
 #### 🐛 Bug Fix
