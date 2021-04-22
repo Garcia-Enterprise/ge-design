@@ -1,3 +1,16 @@
+# v0.5.5 (Thu Apr 22 2021)
+
+#### 🐛 Bug Fix
+
+- chore: setup security reporting ([@ENG618](https://github.com/ENG618))
+- build: setup code scanning ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.4 (Thu Apr 22 2021)
 
 #### 🐛 Bug Fix
