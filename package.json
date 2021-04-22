@@ -17,41 +17,33 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
-    "release": "auto changelog && auto shipit",
+    "release": "auto shipit",
     "lint": "eslint ."
   },
   "dependencies": {
     "polished": "^4.1.1",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.3"
   },
   "devDependencies": {
     "@auto-it/all-contributors": "^10.25.1",
     "@auto-it/conventional-commits": "^10.25.1",
     "@auto-it/twitter": "^10.25.1",
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.10",
-    "@eng618/prettier-config": "^1.5.0",
-    "@storybook/addon-a11y": "^6.1.21",
-    "@storybook/addon-actions": "^6.1.21",
-    "@storybook/addon-docs": "^6.1.21",
-    "@storybook/addon-knobs": "^6.1.21",
-    "@storybook/addon-links": "^6.1.21",
-    "@storybook/addon-storysource": "^6.1.21",
-    "@storybook/addons": "^6.1.21",
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@eng618/prettier-config": "^1.6.0",
     "@storybook/preset-create-react-app": "^3.1.7",
-    "@storybook/react": "^6.1.21",
-    "auto": "^10.20.4",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
+    "auto": "^10.25.1",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.4"
   },
   "babel": {
     "presets": [
@@ -108,7 +100,12 @@
       ],
       "npm",
       "all-contributors",
-      "conventional-commits",
+      [
+        "conventional-commits",
+        {
+          "defaultReleaseType": "patch"
+        }
+      ],
       "released"
     ]
   }
