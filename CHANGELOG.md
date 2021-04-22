@@ -1,3 +1,15 @@
+# v0.5.6 (Thu Apr 22 2021)
+
+#### 🐛 Bug Fix
+
+- chore: create OSSAR workflow ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.5 (Thu Apr 22 2021)
 
 #### 🐛 Bug Fix
