@@ -1,3 +1,15 @@
+# v0.5.1 (Thu Apr 22 2021)
+
+#### 🐛 Bug Fix
+
+- build: update dependencies ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.2.0 (Wed Apr 21 2021)
 
 #### 🚀 Enhancement
