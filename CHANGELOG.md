@@ -1,3 +1,15 @@
+# v0.5.10 (Thu Jun 03 2021)
+
+#### 🐛 Bug Fix
+
+- build: add pre-commit hooks, update yarn.lock ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.9 (Thu Jun 03 2021)
 
 #### 🐛 Bug Fix
