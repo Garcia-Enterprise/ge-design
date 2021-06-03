@@ -1,3 +1,16 @@
+# v0.5.9 (Thu Jun 03 2021)
+
+#### 🐛 Bug Fix
+
+- style: fix linter errors ([@ENG618](https://github.com/ENG618))
+- build: update all dependencies ([@ENG618](https://github.com/ENG618))
+
+#### Authors: 1
+
+- Eric Garcia ([@ENG618](https://github.com/ENG618))
+
+---
+
 # v0.5.8 (Thu Jun 03 2021)
 
 #### 🐛 Bug Fix
