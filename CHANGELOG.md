@@ -1,3 +1,15 @@
+# v0.5.7 (Thu Jun 03 2021)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump dns-packet from 1.3.1 to 1.3.4 [#11](https://github.com/Garcia-Enterprise/ge-design/pull/11) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
 # v0.5.6 (Thu Apr 22 2021)
 
 #### 🐛 Bug Fix
