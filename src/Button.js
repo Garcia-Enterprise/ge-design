@@ -348,9 +348,10 @@ export function Button({
     </Fragment>
   );
 
-  const StyledButtonWrapper = React.useMemo(() => applyStyle(ButtonWrapper), [
-    ButtonWrapper,
-  ]);
+  const StyledButtonWrapper = React.useMemo(
+    () => applyStyle(ButtonWrapper),
+    [ButtonWrapper]
+  );
 
   let SelectedButton = StyledButton;
   if (ButtonWrapper) {
