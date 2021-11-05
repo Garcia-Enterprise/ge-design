@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 on: [push, pull_request]
@@ -7,7 +5,6 @@ on: [push, pull_request]
 jobs:
   fossa-scan:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
       - name: 'Checkout Code'
         uses: actions/checkout@v2
@@ -49,7 +46,7 @@ jobs:
       - name: Run Tests
         run: yarn test
 
-  release:
+  build-and-release:
     runs-on: ubuntu-latest
     needs: [build]
     steps:
@@ -67,6 +64,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn
+
+      - name: Build
+        run: yarn build
 
       - name: Auto Info
         run: yarn auto info
