@@ -1,3 +1,15 @@
+# v0.5.12 (Fri Nov 05 2021)
+
+#### 🐛 Bug Fix
+
+- build: update all dependencies ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.11 (Fri Nov 05 2021)
 
 #### 🐛 Bug Fix
