@@ -1,3 +1,17 @@
+# v0.5.11 (Fri Nov 05 2021)
+
+#### 🐛 Bug Fix
+
+- build: update yarn to v2 ([@eng618](https://github.com/eng618))
+- build(deps): bump tar from 6.1.0 to 6.1.6 [#12](https://github.com/Garcia-Enterprise/ge-design/pull/12) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.10 (Thu Jun 03 2021)
 
 #### 🐛 Bug Fix
