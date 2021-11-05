@@ -1,5 +1,5 @@
 import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
-import { withKnobs, select, boolean } from '@storybook/addon-knobs';
+import { select, boolean } from '@storybook/addon-knobs';
 
 import { Avatar } from './Avatar';
 
@@ -86,7 +86,7 @@ The loading state is used when the image or username is, well, loading.
 
 Experiment with this story with Knobs addon in Canvas mode.
 
-<Story name="knobs" parameters={{ decorators: [withKnobs] }}>
+<Story name="knobs">
   <Avatar
     loading={boolean('Loading')}
     size={select('Size', ['tiny', 'small', 'medium', 'large'])}
