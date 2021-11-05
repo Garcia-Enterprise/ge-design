@@ -65,6 +65,9 @@ jobs:
           echo "Fetching git tags for auto"
           git fetch --unshallow --tags
 
+      - name: Install dependencies
+        run: yarn
+
       - name: Auto Info
         run: yarn auto info
 
