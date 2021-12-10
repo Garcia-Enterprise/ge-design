@@ -14,13 +14,12 @@
     "statusBarItem.hoverBackground": "#696969",
     "statusBar.foreground": "#e7e7e7",
     "activityBar.activeBackground": "#696969",
-    "statusBar.border": "#505050",
-    "titleBar.border": "#505050"
+    "sash.hoverBorder": "#696969",
+    "statusBarItem.remoteBackground": "#505050",
+    "statusBarItem.remoteForeground": "#e7e7e7"
   },
   "peacock.color": "#505050",
-  "spellright.language": [
-    "en"
-  ],
+  "spellright.language": ["en"],
   "spellright.documentTypes": [
     "markdown",
     "latex",
