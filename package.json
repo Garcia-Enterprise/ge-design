@@ -90,5 +90,6 @@
       "released"
     ]
   },
-  "prettier": "@eng618/prettier-config"
+  "prettier": "@eng618/prettier-config",
+  "packageManager": "yarn@3.2.4"
 }
