@@ -16,7 +16,7 @@ module.exports = {
     '@storybook/addon-storysource/register',
     '@storybook/addon-knobs',
     '@storybook/addon-a11y',
-    '@storybook/addon-docs/preset',
+    '@storybook/addon-docs',
   ],
   framework: '@storybook/react',
   features: {
