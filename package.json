@@ -1,7 +1,7 @@
 {
   "name": "ge-design-system",
   "description": "Garcia Enterprise react design system",
-  "version": "0.5.13",
+  "version": "0.5.14",
   "main": "dist/index.js",
   "repository": "git@github.com:Garcia-Enterprise/ge-design.git",
   "author": "Eric N. Garcia <engarcia618@gmail.com>",
@@ -13,9 +13,9 @@
     "eject": "react-scripts eject",
     "format": "prettier --write \"src/**/*.{scss,css,js,md,mdx}\"",
     "format:diff": "prettier --check \"src/**/*.{scss,css,js,md,mdx}\"",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "build-storybook-docs": "build-storybook -s public --docs",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook",
+    "build-storybook-docs": "build-storybook --docs",
     "release": "auto shipit",
     "lint": "eslint .",
     "prepare": "husky install"
