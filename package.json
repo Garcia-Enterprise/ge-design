@@ -56,8 +56,8 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.7",
     "husky": "^8.0.2",
-    "prettier": "^2.7.1",
-    "pretty-quick": "^3.1.3"
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
   },
   "babel": {
     "presets": [
@@ -96,5 +96,10 @@
     ]
   },
   "prettier": "@eng618/prettier-config",
+  "lint-staged": {
+    "src/**/*.(js|ts)?(x)": "eslint . --fix",
+    "*.(js|md|ts)?(x)": "prettier --write",
+    "*.(scss|css|json)": "prettier --write"
+  },
   "packageManager": "yarn@3.2.4"
 }
