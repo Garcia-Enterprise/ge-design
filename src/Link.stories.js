@@ -15,11 +15,11 @@ const CustomLink = styled(Link)`
 const onLinkClick = action('onLinkClick');
 
 export default {
-  title: 'Design System|Link',
+  title: 'Design System/Link',
   component: Link,
 };
 
-export const all = () => (
+export const All = () => (
   <div>
     <Link href="https://learnstorybook.com">Default</Link>
     <br />
