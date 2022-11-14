@@ -1,5 +1,6 @@
 module.exports = {
   stories: ['../**/*.stories.js'],
+  staticDirs: ['../public'],
   addons: [
     '@storybook/preset-create-react-app',
     '@storybook/addon-actions/register',
