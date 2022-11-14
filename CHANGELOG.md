@@ -1,3 +1,19 @@
+# v0.5.14 (Mon Nov 14 2022)
+
+#### 🐛 Bug Fix
+
+- test: temp disable Link test ([@eng618](https://github.com/eng618))
+- build: update storybooks static files api ([@eng618](https://github.com/eng618))
+- ci: update checkout action ([@eng618](https://github.com/eng618))
+- build: update browserslist ([@eng618](https://github.com/eng618))
+- test: update react apis ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.13 (Mon Nov 14 2022)
 
 #### 🐛 Bug Fix
