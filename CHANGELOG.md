@@ -1,3 +1,16 @@
+# v0.5.15 (Mon Nov 14 2022)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump terser from 4.8.0 to 4.8.1 [#17](https://github.com/Garcia-Enterprise/ge-design/pull/17) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@eng618](https://github.com/eng618))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.14 (Mon Nov 14 2022)
 
 #### 🐛 Bug Fix
