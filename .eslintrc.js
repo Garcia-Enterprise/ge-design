@@ -3,6 +3,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'prettier',
+    'plugin:storybook/recommended',
   ],
   parserOptions: {
     settings: {
