@@ -1,3 +1,30 @@
+# v0.5.13 (Mon Nov 14 2022)
+
+#### 🐛 Bug Fix
+
+- build: bump all dependencies ([@eng618](https://github.com/eng618))
+- build: downgrade babel-loader ([@eng618](https://github.com/eng618))
+- build: add babel-loader ([@eng618](https://github.com/eng618))
+- build: bump dependencies ([@eng618](https://github.com/eng618))
+- ci: update node in actions ([@eng618](https://github.com/eng618))
+- fix: recreate yarn.lock ([@eng618](https://github.com/eng618))
+- build: update all deps ([@eng618](https://github.com/eng618))
+- fix: update storybook config ([@eng618](https://github.com/eng618))
+- build: add dependencies ([@eng618](https://github.com/eng618))
+- ci: updates ([@eng618](https://github.com/eng618))
+- ci: fix release ([@eng618](https://github.com/eng618))
+- ci: only publish on success ([@eng618](https://github.com/eng618))
+
+#### ⚠️ Pushed to `master`
+
+- build update yarn and node ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.12 (Fri Nov 05 2021)
 
 #### 🐛 Bug Fix
