@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot, unmountComponentAtNode } from 'react-dom/client';
 import { Link } from './Link';
 
 // A straightforward link wrapper that renders an <a> with the passed props. What we are testing
@@ -8,7 +8,7 @@ const LinkWrapper = (props) => <a {...props} />; // eslint-disable-line jsx-a11y
 
 it('has a href attribute when rendering with linkWrapper', () => {
   const div = document.createElement('div');
-  ReactDOM.render(
+  createRoot.render(
     <Link href="https://learnstorybook.com" LinkWrapper={LinkWrapper}>
       Link Text
     </Link>,
@@ -20,5 +20,5 @@ it('has a href attribute when rendering with linkWrapper', () => {
   ).not.toBeNull();
   expect(div.textContent).toEqual('Link Text');
 
-  ReactDOM.unmountComponentAtNode(div);
+  unmountComponentAtNode(div);
 });
