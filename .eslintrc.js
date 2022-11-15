@@ -3,6 +3,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'prettier',
+    'plugin:storybook/recommended',
   ],
   parserOptions: {
     settings: {
@@ -17,7 +18,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['jsx-a11y', 'react', 'react-hooks'],
-  ignorePatterns: ['storybook-static/', 'node_modules/'],
+  ignorePatterns: ['storybook-static/', 'node_modules/', 'dist'],
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',

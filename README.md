@@ -17,9 +17,9 @@ Based on the Learn Storybook design system is a subset of the full [Storybook de
 
 Learn more at [Learn Storybook](https://learnstorybook.com).
 
-## Contributing
+<!-- ## Contributing
 
-If you would like to contribute to the system please follow the [Contributing Guidelines](CONTRIBUTING.md)
+If you would like to contribute to the system please follow the [Contributing Guidelines](CONTRIBUTING.md) -->
 
 ## License
 

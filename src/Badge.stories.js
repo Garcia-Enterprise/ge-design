@@ -3,11 +3,11 @@ import { Badge } from './Badge';
 import { Icon } from './Icon';
 
 export default {
-  title: 'Design System|Badge',
+  title: 'Design System/Badge',
   component: Badge,
 };
 
-export const allBadges = () => (
+export const AllBadges = (args) => (
   <div>
     <Badge status="positive">Positive</Badge>
     <Badge status="negative">Negative</Badge>
@@ -15,29 +15,34 @@ export const allBadges = () => (
     <Badge status="error">Error</Badge>
     <Badge status="warning">Warning</Badge>
     <Badge status="positive">
-      <Icon icon="facehappy" inline />
+      <Icon {...args} />
       with icon
     </Badge>
   </div>
 );
-
-allBadges.story = {
-  name: 'all badges',
+AllBadges.args = {
+  icon: 'facehappy',
+  inline: true,
 };
 
-export const positive = () => <Badge status="positive">Positive</Badge>;
-export const negative = () => <Badge status="negative">Negative</Badge>;
-export const warning = () => <Badge status="warning">Warning</Badge>;
-export const neutral = () => <Badge status="neutral">Neutral</Badge>;
-export const error = () => <Badge status="error">Error</Badge>;
+AllBadges.storyName = 'all badges';
 
-export const withIcon = () => (
-  <Badge status="warning">
-    <Icon icon="check" inline />
+export const Positive = () => <Badge status="positive">Positive</Badge>;
+export const Negative = () => <Badge status="negative">Negative</Badge>;
+export const Warning = () => <Badge status="warning">Warning</Badge>;
+export const Neutral = () => <Badge status="neutral">Neutral</Badge>;
+export const Error = () => <Badge status="error">Error</Badge>;
+
+export const WithIcon = (args) => (
+  <Badge {...args}>
+    <Icon {...args} />
     with icon
   </Badge>
 );
-
-withIcon.story = {
-  name: 'with icon',
+WithIcon.args = {
+  status: 'warning',
+  icon: 'check',
+  inline: true,
 };
+
+WithIcon.storyName = 'with icon';

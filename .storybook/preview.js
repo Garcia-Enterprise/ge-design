@@ -6,15 +6,22 @@ import { withA11y } from '@storybook/addon-a11y';
 import { GlobalStyle } from '../src/shared/global';
 
 addDecorator(withA11y);
-addDecorator(story => (
+addDecorator((Story) => (
   <>
     <GlobalStyle />
-    {story()}
+    <Story />
   </>
 ));
 addParameters({
   options: {
     theme: themes.dark,
+  },
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  controls: {
+    matchers: {
+      color: /(background|color)$/i,
+      date: /Date$/,
+    },
   },
 });
 
