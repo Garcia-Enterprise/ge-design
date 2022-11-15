@@ -1,3 +1,71 @@
+# v0.6.0 (Tue Nov 15 2022)
+
+#### 🚀 Enhancement
+
+- build!: upgraded base [#21](https://github.com/Garcia-Enterprise/ge-design/pull/21) ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
+# v0.5.15 (Mon Nov 14 2022)
+
+#### 🐛 Bug Fix
+
+- build(deps): bump terser from 4.8.0 to 4.8.1 [#17](https://github.com/Garcia-Enterprise/ge-design/pull/17) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@eng618](https://github.com/eng618))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
+# v0.5.14 (Mon Nov 14 2022)
+
+#### 🐛 Bug Fix
+
+- test: temp disable Link test ([@eng618](https://github.com/eng618))
+- build: update storybooks static files api ([@eng618](https://github.com/eng618))
+- ci: update checkout action ([@eng618](https://github.com/eng618))
+- build: update browserslist ([@eng618](https://github.com/eng618))
+- test: update react apis ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
+# v0.5.13 (Mon Nov 14 2022)
+
+#### 🐛 Bug Fix
+
+- build: bump all dependencies ([@eng618](https://github.com/eng618))
+- build: downgrade babel-loader ([@eng618](https://github.com/eng618))
+- build: add babel-loader ([@eng618](https://github.com/eng618))
+- build: bump dependencies ([@eng618](https://github.com/eng618))
+- ci: update node in actions ([@eng618](https://github.com/eng618))
+- fix: recreate yarn.lock ([@eng618](https://github.com/eng618))
+- build: update all deps ([@eng618](https://github.com/eng618))
+- fix: update storybook config ([@eng618](https://github.com/eng618))
+- build: add dependencies ([@eng618](https://github.com/eng618))
+- ci: updates ([@eng618](https://github.com/eng618))
+- ci: fix release ([@eng618](https://github.com/eng618))
+- ci: only publish on success ([@eng618](https://github.com/eng618))
+
+#### ⚠️ Pushed to `master`
+
+- build update yarn and node ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.12 (Fri Nov 05 2021)
 
 #### 🐛 Bug Fix

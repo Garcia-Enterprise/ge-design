@@ -49,11 +49,11 @@ const List = styled.ul`
 `;
 
 export default {
-  title: 'Design System|Icon',
+  title: 'Design System/Icon',
   component: Icon,
 };
 
-export const labels = () => (
+export const Labels = (args) => (
   <Fragment>
     There are {Object.keys(icons).length} icons
     <List>
@@ -67,7 +67,7 @@ export const labels = () => (
   </Fragment>
 );
 
-export const noLabels = () => (
+export const NoLabels = (args) => (
   <List>
     {Object.keys(icons).map((key) => (
       <Item minimal key={key}>
@@ -77,19 +77,25 @@ export const noLabels = () => (
   </List>
 );
 
-noLabels.story = {
-  name: 'no labels',
+NoLabels.storyName = 'no labels';
+
+export const Inline = (args) => (
+  <Fragment>
+    this is an inline <Icon {...args} /> icon (default)
+  </Fragment>
+);
+Inline.args = {
+  icon: 'facehappy',
+  'aria-label': 'Happy face',
 };
 
-export const inline = () => (
+export const Block = (args) => (
   <Fragment>
-    this is an inline <Icon icon="facehappy" aria-label="Happy face" /> icon
-    (default)
+    this is a block <Icon {...args} /> icon
   </Fragment>
 );
-
-export const block = () => (
-  <Fragment>
-    this is a block <Icon icon="facehappy" aria-label="Happy face" block /> icon
-  </Fragment>
-);
+Block.args = {
+  icon: 'facehappy',
+  'aria-label': 'Happy face',
+  block: true,
+};

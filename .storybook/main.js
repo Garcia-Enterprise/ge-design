@@ -1,12 +1,25 @@
 module.exports = {
-  stories: ['../**/*.stories.js'],
-  addons: [
-    '@storybook/preset-create-react-app',
-    '@storybook/addon-actions/register',
-    '@storybook/addon-links/register',
-    '@storybook/addon-storysource/register',
-    '@storybook/addon-knobs/register',
-    '@storybook/addon-a11y/register',
-    '@storybook/addon-docs/preset',
+  core: {
+    builder: 'webpack5',
+  },
+  stories: [
+    '../src/Intro.stories.mdx',
+    '../src/**/*.stories.mdx',
+    '../src/**/*.stories.@(js|jsx|ts|tsx)',
   ],
+  staticDirs: ['../public'],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/preset-create-react-app',
+    '@storybook/addon-storysource/register',
+    '@storybook/addon-knobs',
+    '@storybook/addon-a11y',
+    '@storybook/addon-docs',
+  ],
+  framework: '@storybook/react',
+  features: {
+    interactionsDebugger: true,
+  },
 };
