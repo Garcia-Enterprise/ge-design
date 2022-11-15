@@ -1,3 +1,15 @@
+# v0.6.0 (Tue Nov 15 2022)
+
+#### 🚀 Enhancement
+
+- build!: upgraded base [#21](https://github.com/Garcia-Enterprise/ge-design/pull/21) ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.5.15 (Mon Nov 14 2022)
 
 #### 🐛 Bug Fix
