@@ -1,6 +1,5 @@
-<!-- This PR is used for build build and dependency changes -->
-<!-- Update with a short descriptive title -->
+<!-- This PR is used for build and dependency changes -->
 
 # Build updates
 
-<!-- Describe the contents of this PR in more detail here: -->
+<!-- Describe what dependency changes are made, and how you have tested them. -->

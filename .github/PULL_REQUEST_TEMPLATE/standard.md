@@ -1,5 +1,3 @@
-<!-- Update with a short descriptive title -->
-
-# Title
+# Description
 
 <!-- Describe the contents of this PR in more detail here: -->
