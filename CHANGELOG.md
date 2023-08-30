@@ -1,3 +1,35 @@
+# v0.6.1 (Wed Aug 30 2023)
+
+#### 🐛 Bug Fix
+
+- ci: adjustments ([@eng618](https://github.com/eng618))
+- ci: remove deprecated action ([@eng618](https://github.com/eng618))
+- ci: update actions ([@eng618](https://github.com/eng618))
+- docs: update email link ([@eng618](https://github.com/eng618))
+- ci: update master to main conversioin ([@eng618](https://github.com/eng618))
+- ci: update release workflow ([@eng618](https://github.com/eng618))
+- ci: remove custom checkout token ([@eng618](https://github.com/eng618))
+- build(test): add ci test command ([@eng618](https://github.com/eng618))
+- build(fossa): remove optional test command ([@eng618](https://github.com/eng618))
+- build(fossa): remove custom config ([@eng618](https://github.com/eng618))
+- build(deps): update minor and below ([@eng618](https://github.com/eng618))
+- build(fossa): update config api version to v3 ([@eng618](https://github.com/eng618))
+- build(node): bump to latest 18.x ([@eng618](https://github.com/eng618))
+- build: bump yarn version ([@eng618](https://github.com/eng618))
+- build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 [#28](https://github.com/Garcia-Enterprise/ge-design/pull/28) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- chore: update templates [#27](https://github.com/Garcia-Enterprise/ge-design/pull/27) ([@eng618](https://github.com/eng618))
+- build(deps): bump json5 from 1.0.1 to 1.0.2 [#25](https://github.com/Garcia-Enterprise/ge-design/pull/25) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@eng618](https://github.com/eng618))
+- build(deps): bump decode-uri-component from 0.2.0 to 0.2.2 [#24](https://github.com/Garcia-Enterprise/ge-design/pull/24) ([@dependabot[bot]](https://github.com/dependabot[bot]) [@eng618](https://github.com/eng618))
+- chore: add pull request templates [#26](https://github.com/Garcia-Enterprise/ge-design/pull/26) ([@eng618](https://github.com/eng618))
+- fix(sb): docs to correct version [#23](https://github.com/Garcia-Enterprise/ge-design/pull/23) ([@eng618](https://github.com/eng618))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.6.0 (Tue Nov 15 2022)
 
 #### 🚀 Enhancement
