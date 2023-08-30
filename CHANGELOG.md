@@ -1,3 +1,15 @@
+# v0.6.3 (Wed Aug 30 2023)
+
+#### 🐛 Bug Fix
+
+- build: bump browserslist ([@eng618](https://github.com/eng618))
+
+#### Authors: 1
+
+- Eric Garcia ([@eng618](https://github.com/eng618))
+
+---
+
 # v0.6.1 (Wed Aug 30 2023)
 
 #### 🐛 Bug Fix
