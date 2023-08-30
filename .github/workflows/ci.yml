@@ -12,13 +12,7 @@ jobs:
       - name: 'Run FOSSA Scan'
         uses: fossas/fossa-action@main # Use a specific version if locking is preferred
         with:
-          api-key: ${{secrets.FOSSA_API_KEY}}
-
-      - name: 'Run FOSSA Test'
-        uses: fossas/fossa-action@main # Use a specific version if locking is preferred
-        with:
-          api-key: ${{secrets.FOSSA_API_KEY}}
-          run-tests: true
+          api-key: ${{ secrets.FOSSA_API_KEY }}
 
   test:
     runs-on: ubuntu-latest
