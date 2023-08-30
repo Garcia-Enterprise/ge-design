@@ -6,15 +6,15 @@ jobs:
   fossa-scan:
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout Code"
+      - name: 'Checkout Code'
         uses: actions/checkout@v3
 
-      - name: "Run FOSSA Scan"
+      - name: 'Run FOSSA Scan'
         uses: fossas/fossa-action@main # Use a specific version if locking is preferred
         with:
           api-key: ${{secrets.FOSSA_API_KEY}}
 
-      - name: "Run FOSSA Test"
+      - name: 'Run FOSSA Test'
         uses: fossas/fossa-action@main # Use a specific version if locking is preferred
         with:
           api-key: ${{secrets.FOSSA_API_KEY}}
@@ -22,10 +22,10 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    if: (!contains(github.event.head_commit.message , 'ci skip') && !contains(github.event.head_commit.message, 'skip ci'))
     strategy:
       matrix:
-        node: ["16", "18"]
+        node: ['18']
     steps:
       - uses: actions/checkout@v3
         with:
@@ -33,7 +33,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-          cache: "yarn"
+          cache: 'yarn'
 
       - name: Install dependencies
         run: yarn
@@ -56,8 +56,8 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: "yarn"
+          node-version: 18
+          cache: 'yarn'
 
       - name: Prepare repository
         run: |
