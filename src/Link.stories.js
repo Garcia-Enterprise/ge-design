@@ -40,11 +40,7 @@ export const All = (args) => (
       With icon in front
     </Link>
     <br />
-    <Link
-      containsIcon
-      href="https://storybook.js.org/tutorials/"
-      aria-label="Toggle side bar"
-    >
+    <Link containsIcon href="https://storybook.js.org/tutorials/" aria-label="Toggle side bar">
       <Icon icon="sidebar" aria-hidden />
     </Link>
     <br />
@@ -64,19 +60,11 @@ export const All = (args) => (
       is actually a button
     </Link>
     <br />
-    <Link
-      tertiary
-      LinkWrapper={StoryLinkWrapper}
-      href="http://storybook.js.org"
-    >
+    <Link tertiary LinkWrapper={StoryLinkWrapper} href="http://storybook.js.org">
       has a LinkWrapper like GatsbyLink or NextLink
     </Link>
     <br />
-    <CustomLink
-      tertiary
-      LinkWrapper={StoryLinkWrapper}
-      href="http://storybook.js.org"
-    >
+    <CustomLink tertiary LinkWrapper={StoryLinkWrapper} href="http://storybook.js.org">
       has a LinkWrapper like GatsbyLink or NextLink with custom styling
     </CustomLink>
   </div>

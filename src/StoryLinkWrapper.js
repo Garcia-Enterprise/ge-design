@@ -5,14 +5,7 @@ import { action } from '@storybook/addon-actions';
 
 const fireClickAction = action('onLinkClick');
 
-export function StoryLinkWrapper({
-  children,
-  className,
-  href,
-  onClick,
-  to,
-  ...rest
-}) {
+export function StoryLinkWrapper({ children, className, href, onClick, to, ...rest }) {
   const modifiedOnClick = (event) => {
     event.preventDefault();
     onClick();
@@ -20,12 +13,7 @@ export function StoryLinkWrapper({
   };
 
   return (
-    <a
-      className={className}
-      href={href || to}
-      onClick={modifiedOnClick}
-      {...rest}
-    >
+    <a className={className} href={href || to} onClick={modifiedOnClick} {...rest}>
       {children}
     </a>
   );

@@ -38,8 +38,7 @@ const StyledButton = styled.button`
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
-  padding: ${(props) =>
-    props.size === SIZES.SMALL ? '8px 16px' : '13px 20px'};
+  padding: ${(props) => (props.size === SIZES.SMALL ? '8px 16px' : '13px 20px')};
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -52,8 +51,7 @@ const StyledButton = styled.button`
   margin: 0;
   background: transparent;
 
-  font-size: ${(props) =>
-    props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px;
+  font-size: ${(props) => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 
@@ -247,16 +245,10 @@ const StyledButton = styled.button`
             color: ${color.darkest};
           }
           &:focus {
-            box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
-          color.secondary,
-          0.4
-        )} 0 1px 9px 2px;
+            box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(color.secondary, 0.4)} 0 1px 9px 2px;
           }
           &:focus:hover {
-            box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(
-          color.secondary,
-          0.2
-        )} 0 8px 18px 0px;
+            box-shadow: ${color.medium} 0 0 0 1px inset, ${rgba(color.secondary, 0.2)} 0 8px 18px 0px;
           }
         `
       };
@@ -279,16 +271,10 @@ const StyledButton = styled.button`
           color: ${color.lightest};
         }
         &:focus {
-          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
-      color.primary,
-      0.4
-    )} 0 1px 9px 2px;
+          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(color.primary, 0.4)} 0 1px 9px 2px;
         }
         &:focus:hover {
-          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(
-      color.primary,
-      0.2
-    )} 0 8px 18px 0px;
+          box-shadow: ${color.primary} 0 0 0 1px inset, ${rgba(color.primary, 0.2)} 0 8px 18px 0px;
         }
       `};
 
@@ -324,23 +310,11 @@ const ButtonLink = StyledButton.withComponent('a');
 const applyStyle = (ButtonWrapper) => {
   return (
     ButtonWrapper &&
-    StyledButton.withComponent(
-      ({ containsIcon, isLoading, isUnclickable, ...rest }) => (
-        <ButtonWrapper {...rest} />
-      )
-    )
+    StyledButton.withComponent(({ containsIcon, isLoading, isUnclickable, ...rest }) => <ButtonWrapper {...rest} />)
   );
 };
 
-export function Button({
-  isDisabled,
-  isLoading,
-  loadingText,
-  isLink,
-  children,
-  ButtonWrapper,
-  ...props
-}) {
+export function Button({ isDisabled, isLoading, loadingText, isLink, children, ButtonWrapper, ...props }) {
   const buttonInner = (
     <Fragment>
       <Text>{children}</Text>
@@ -348,10 +322,7 @@ export function Button({
     </Fragment>
   );
 
-  const StyledButtonWrapper = React.useMemo(
-    () => applyStyle(ButtonWrapper),
-    [ButtonWrapper]
-  );
+  const StyledButtonWrapper = React.useMemo(() => applyStyle(ButtonWrapper), [ButtonWrapper]);
 
   let SelectedButton = StyledButton;
   if (ButtonWrapper) {

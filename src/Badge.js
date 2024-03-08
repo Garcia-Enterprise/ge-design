@@ -62,13 +62,7 @@ export function Badge({ ...props }) {
   return <BadgeWrapper {...props} />;
 }
 Badge.propTypes = {
-  status: PropTypes.oneOf([
-    'positive',
-    'negative',
-    'neutral',
-    'error',
-    'warning',
-  ]),
+  status: PropTypes.oneOf(['positive', 'negative', 'neutral', 'error', 'warning']),
 };
 
 Badge.defaultProps = {
