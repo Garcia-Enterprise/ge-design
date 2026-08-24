@@ -174,7 +174,14 @@ function FieldError({ className, children, errors, ...props }: React.ComponentPr
       return null;
     }
 
-    const uniqueErrors = [...new Map(errors.map((error) => [error?.message, error])).values()];
+    const uniqueErrors = Array.from(
+      errors
+        .reduce(
+          (map, error) => map.set(error?.message, error),
+          new Map<string | undefined, NonNullable<typeof errors>[number]>(),
+        )
+        .values(),
+    );
 
     if (uniqueErrors?.length == 1) {
       return uniqueErrors[0]?.message;
