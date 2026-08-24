@@ -180,11 +180,16 @@ export function TableOfContentsHeader({
 export function TableOfContentsList({ className }: { className?: string }) {
   const { headings, activeId, scrollToHeading } = useTOC();
 
+  const minLevel = React.useMemo(() => {
+    if (headings.length === 0) {
+      return 0;
+    }
+    return Math.min(...headings.map((h) => h.level));
+  }, [headings]);
+
   if (headings.length === 0) {
     return null;
   }
-
-  const minLevel = Math.min(...headings.map((h) => h.level));
 
   return (
     <View className={cn('space-y-2 p-4', className)}>
