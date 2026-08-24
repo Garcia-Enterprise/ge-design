@@ -181,7 +181,9 @@ export function TableOfContentsList({ className }: { className?: string }) {
   const { headings, activeId, scrollToHeading } = useTOC();
 
   const minLevel = React.useMemo(() => {
-    if (headings.length === 0) return 0;
+    if (headings.length === 0) {
+      return 0;
+    }
     return Math.min(...headings.map((h) => h.level));
   }, [headings]);
 
