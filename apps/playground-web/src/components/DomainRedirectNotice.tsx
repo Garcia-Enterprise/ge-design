@@ -30,8 +30,12 @@ export function DomainRedirectNotice(): React.ReactElement | null {
       return;
     }
 
-    const target = `https://${TARGET_DOMAIN}${window.location.pathname}${window.location.search}${window.location.hash}`;
-    setNewUrl(target);
+    const targetUrl = new URL(window.location.href);
+    targetUrl.protocol = 'https:';
+    targetUrl.hostname = TARGET_DOMAIN;
+    targetUrl.port = '';
+
+    setNewUrl(targetUrl.toString());
     setVisible(true);
   }, []);
 
