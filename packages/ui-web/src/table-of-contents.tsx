@@ -105,6 +105,13 @@ function TableOfContentsList({ className }: TableOfContentsListBaseProps) {
   const { headings, activeId, activeHeadingText } = useTOC();
   const [isOpen, setIsOpen] = React.useState(false);
 
+  const currentMinLevel = React.useMemo(() => {
+    if (headings.length === 0) {
+      return 0;
+    }
+    return Math.min(...headings.map((h) => h.level));
+  }, [headings]);
+
   // Auto-collapse on scroll
   React.useEffect(() => {
     if (!isOpen) {
@@ -122,8 +129,6 @@ function TableOfContentsList({ className }: TableOfContentsListBaseProps) {
   if (headings.length === 0) {
     return null;
   }
-
-  const currentMinLevel = Math.min(...headings.map((h) => h.level));
 
   const listContent = (
     <ul className="m-0 list-none text-sm">
