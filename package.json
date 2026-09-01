@@ -110,7 +110,7 @@
     "husky": "^9.1.7",
     "jsdom": "^29.0.2",
     "lint-staged": "^17.0.5",
-    "metro-config": "~0.84.3",
+    "metro-config": "~0.87.0",
     "metro-resolver": "~0.84.3",
     "next-themes": "^0.4.6",
     "nx": "^22.6.5",
