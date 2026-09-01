@@ -11,7 +11,7 @@
     "expo-splash-screen": "~31.0.13",
     "expo-status-bar": "~3.0.9",
     "expo-system-ui": "~6.0.9",
-    "metro-config": "~0.83.5",
+    "metro-config": "~0.87.0",
     "metro-resolver": "~0.83.5",
     "nativewind": "^5.0.0-preview.4",
     "postcss": "^8.5.8",
